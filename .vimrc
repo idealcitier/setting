@@ -8,6 +8,14 @@ set history=500
 " show line num
 set nu
 
+set cursorline
+
+highlight CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
+
+set colorcolumn=120
+
+set mouse=a
+
 " A buffer becomes hidden when it is abandoned
 set hid
 
@@ -195,8 +203,8 @@ let g:NERDCustomDelimiters = { 'c': { 'left': '//','right': '' } }
 nmap <C-_>   <Plug>NERDCommenterToggle
 vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
 
-nmap <C-h> :tabNext<CR>
-nmap <C-l> :tabnext<CR>
+nmap <C-j> :tabNext<CR>
+nmap <C-k> :tabnext<CR>
 
 """"""""""""""""""""""""""""""
 " => tarbar setting
