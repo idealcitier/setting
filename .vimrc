@@ -14,7 +14,7 @@ highlight CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NO
 
 set colorcolumn=120
 
-set mouse=a
+" set mouse=a
 
 " A buffer becomes hidden when it is abandoned
 set hid
@@ -52,6 +52,7 @@ nmap <leader>w :w!<cr>
 
 " colorscheme vim-material
 colorscheme space-vim-dark
+" colorscheme gruvbox
 " Enable syntax highlighting
 syntax enable
 "
@@ -163,6 +164,8 @@ Plug 'powerline/powerline'
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
 
+Plug 'morhetz/gruvbox'
+
 " !!!!!DONNOT DELETE THIS LINE!!!!!
 call plug#end()
 
@@ -205,6 +208,9 @@ vmap <C-_>   <Plug>NERDCommenterToggle<CR>gv
 
 nmap <C-j> :tabNext<CR>
 nmap <C-k> :tabnext<CR>
+
+nmap <C-m> :set mouse=a<CR>
+nmap <C-n> :set mouse-=a<CR>
 
 """"""""""""""""""""""""""""""
 " => tarbar setting
