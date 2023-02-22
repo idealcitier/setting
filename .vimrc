@@ -50,14 +50,13 @@ nmap <leader>w :w!<cr>
 " => Colors
 """""""""""""""""""""""""""""""""""""""""""""""""
 
-" colorscheme vim-material
-colorscheme space-vim-dark
-" colorscheme gruvbox
-" Enable syntax highlighting
 syntax enable
-"
-" set background=dark
-"
+set background=dark
+" colorscheme vim-material
+" colorscheme space-vim-dark
+colorscheme gruvbox
+" Enable syntax highlighting
+
 "" Enable 256 colors palette in Gnome Terminal
 "if $COLORTERM == 'gnome-terminal'
 "    set t_Co=256
