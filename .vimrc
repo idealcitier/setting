@@ -144,11 +144,12 @@ Plug 'mhinz/vim-startify'
 
 " for c/c++
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 Plug 'majutsushi/tagbar'
 
 " search file by name, ctrl + p
-Plug 'kien/ctrlp.vim'
+" Plug 'kien/ctrlp.vim'
+Plug 'yggdroot/leaderf'
 
 " indent line
 Plug 'yggdroot/indentline'
@@ -167,6 +168,19 @@ Plug 'morhetz/gruvbox'
 
 " !!!!!DONNOT DELETE THIS LINE!!!!!
 call plug#end()
+
+" leaderF setting
+let g:Lf_ShortcutF = '<c-p>'
+let g:Lf_ShortcutB = '<c-l>'
+let g:Lf_WindowPosition = 'popup'
+noremap <leader>f :LeaderfSelf<cr>
+noremap <leader>fm :LeaderfMru<cr>
+noremap <leader>ff :LeaderfFunction<cr>
+noremap <leader>fb :LeaderfBuffer<cr>
+noremap <leader>ft :LeaderfBufTag<cr>
+noremap <leader>fl :LeaderfLine<cr>
+noremap <leader>fw :LeaderfWindow<cr>
+noremap <leader>frr :LeaderfRgRecall<cr>
 
 """"""""""""""""""""""""""""""
 " => NERDTree setting
