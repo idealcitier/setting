@@ -149,7 +149,7 @@ Plug 'majutsushi/tagbar'
 
 " search file by name, ctrl + p
 " Plug 'kien/ctrlp.vim'
-Plug 'yggdroot/leaderf'
+Plug 'Yggdroot/LeaderF'
 
 " indent line
 Plug 'yggdroot/indentline'
@@ -165,6 +165,9 @@ Plug 'powerline/powerline'
 " Plug 'vim-airline/vim-airline-themes'
 
 Plug 'morhetz/gruvbox'
+
+" gen tags auto
+Plug 'ludovicchabant/vim-gutentags'
 
 " !!!!!DONNOT DELETE THIS LINE!!!!!
 call plug#end()
