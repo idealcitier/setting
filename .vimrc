@@ -173,6 +173,7 @@ call plug#end()
 let g:Lf_ShortcutF = '<c-p>'
 let g:Lf_ShortcutB = '<c-l>'
 let g:Lf_WindowPosition = 'popup'
+let g:Lf_PreviewInPopup = 1
 noremap <leader>f :LeaderfSelf<cr>
 noremap <leader>fm :LeaderfMru<cr>
 noremap <leader>ff :LeaderfFunction<cr>
